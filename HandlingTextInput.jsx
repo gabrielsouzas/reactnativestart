@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import {Text, TextInput, View} from 'react-native';
 
-const PizzaTranslator = () => {
+// PizzaTranslator
+
+const HandlingTextInput = () => {
   const [text, setText] = useState('');
   return (
     <View style={{padding: 10}}>
@@ -21,4 +23,4 @@ const PizzaTranslator = () => {
   );
 };
 
-export default PizzaTranslator;
+export default HandlingTextInput;
